@@ -1,0 +1,7 @@
+.numberCounter{
+    display: flex;
+}
+.button{
+    text-align: center;
+    margin: auto 2px;
+}
