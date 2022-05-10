@@ -1,9 +1,12 @@
 import { useState } from "react";
 import "./styles.css";
-export const NumberCounter = () => {
+interface INumberCounter{
+    initiaValue: number;
+}
+export const NumberCounter = ({initiaValue}: INumberCounter) => {
   const maxNumber: number = 5;
   const minNumber: number = -5;
-  const [number, setNumber] = useState(0);
+  const [number, setNumber] = useState(initiaValue);
   const handlePlus = () => {
     setNumber(number + 1);
   };

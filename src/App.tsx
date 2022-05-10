@@ -1,9 +1,10 @@
 import { NumberCounter } from "./components/NumberCounter";
 
 function App() {
+  const initiaValue = 0;
   return (
     <>
-      <NumberCounter />
+      <NumberCounter initiaValue={+initiaValue} />
     </>
   );
 }
