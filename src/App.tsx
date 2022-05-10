@@ -5,6 +5,8 @@ function App() {
   return (
     <>
       <NumberCounter initiaValue={+initiaValue} />
+      <NumberCounter initiaValue={+initiaValue} />
+      <NumberCounter initiaValue={+initiaValue} />
     </>
   );
 }
