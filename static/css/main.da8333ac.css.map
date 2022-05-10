@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.da8333ac.css","mappings":"AAAA,eACI,YACJ,CACA,QAEI,eAAgB,CADhB,iBAEJ","sources":["components/styles.css"],"sourcesContent":[".numberCounter{\r\n    display: flex;\r\n}\r\n.button{\r\n    text-align: center;\r\n    margin: auto 2px;\r\n}"],"names":[],"sourceRoot":""}
